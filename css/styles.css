@@ -13,7 +13,7 @@ margin: 100px auto;
 width: 4%;
 }
 h1 {
-  color: #66BFBF;
+  color: #FFFFFF;
   font-family: 'Sacramento', cursive;
   /* 16px font is 100%  90px/16 =5.625
   16px is also 1em 5.625em use rem*/
@@ -31,6 +31,7 @@ h2 {
   font-weight: normal;
   margin-left: 30px;
   padding-bottom: 20px;
+  text-align: center;
 
 }
 
@@ -56,10 +57,11 @@ a:hover{
   color:#7596FF;
 }
 
-.vicon-image{
-  size: 50%;
-}
+.my-image{
 
+width: 20%;
+
+}
 .skill-row{
   line-height: 2;
   margin: 100px auto 100px auto;
@@ -88,19 +90,8 @@ a:hover{
   text-decoration: underline;
 }
 .intro{
-  width: 30%;
   margin: auto;
-}
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  bottom: 300px;
-  left: 300px;
-  position: absolute;
+  width: 30%;
 }
 
 .copy-right{
@@ -109,20 +100,25 @@ a:hover{
   padding: 20px 0;
 }
 
+.contact-me{
+text-align: center;
 
+}
 .footer-link{
-  color: #3A6AFF;
+  color: #FFFFFF;
+
+  text-align: center;
 }
 
 .vicon-image{
   float:left;
   margin-right: 30px;
-  width:25%;
+
 }
 .python-image{
   float:right;
   margin-right: 30px;
-  width: 25%;
+
 }
 
 .btn {
@@ -150,4 +146,5 @@ a:hover{
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+  color: #ffffFF;
 }
